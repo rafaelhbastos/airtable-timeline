@@ -680,54 +680,20 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _timelineItemsJs = require("./timelineItems.js");
-var _timelineItemsJsDefault = parcelHelpers.interopDefault(_timelineItemsJs);
-function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: [
-                    "Good luck with your assignment! ",
-                    "\u2728"
-                ]
-            }, void 0, true, {
-                fileName: "src/index.js",
-                lineNumber: 8,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: [
-                    (0, _timelineItemsJsDefault.default).length,
-                    " timeline items to render"
-                ]
-            }, void 0, true, {
-                fileName: "src/index.js",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/index.js",
-        lineNumber: 7,
-        columnNumber: 5
-    }, this);
-}
-_c = App;
+var _app = require("./App");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
     fileName: "src/index.js",
-    lineNumber: 15,
-    columnNumber: 13
+    lineNumber: 8,
+    columnNumber: 3
 }, undefined));
-var _c;
-$RefreshReg$(_c, "App");
 
   $parcel$ReactRefreshHelpers$3cdc.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./timelineItems.js":"FMnwD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./App":"hh6uc"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -24970,110 +24936,7 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== 'undefined' && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === 'function') __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"FMnwD":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-const timelineItems = [
-    {
-        id: 1,
-        start: "2021-01-14",
-        end: "2021-01-22",
-        name: "Recruit translators"
-    },
-    {
-        id: 2,
-        start: "2021-01-17",
-        end: "2021-01-31",
-        name: "Create lesson plan 1"
-    },
-    {
-        id: 3,
-        start: "2021-02-05",
-        end: "2021-02-13",
-        name: "Translate phrases for lesson 1"
-    },
-    {
-        id: 4,
-        start: "2021-02-07",
-        end: "2021-03-08",
-        name: "Create dark mode design"
-    },
-    {
-        id: 5,
-        start: "2021-02-14",
-        end: "2021-02-22",
-        name: "Recruit copyeditors"
-    },
-    {
-        id: 6,
-        start: "2021-02-18",
-        end: "2021-02-24",
-        name: "Proofread translations for lesson 1"
-    },
-    {
-        id: 7,
-        start: "2021-02-20",
-        end: "2021-02-22",
-        name: "Finalize logo"
-    },
-    {
-        id: 8,
-        start: "2021-02-21",
-        end: "2021-03-22",
-        name: "Implement dark mode"
-    },
-    {
-        id: 9,
-        start: "2021-02-21",
-        end: "2021-02-28",
-        name: "Finalize lesson plan 1"
-    },
-    {
-        id: 10,
-        start: "2021-02-23",
-        end: "2021-02-23",
-        name: "Approve logo"
-    },
-    {
-        id: 11,
-        start: "2021-03-03",
-        end: "2021-03-29",
-        name: "Create lesson plan 2"
-    },
-    {
-        id: 12,
-        start: "2021-03-30",
-        end: "2021-04-08",
-        name: "Translate phrases for lesson 2"
-    },
-    {
-        id: 13,
-        start: "2021-04-01",
-        end: "2021-04-04",
-        name: "Debug mobile notification error"
-    },
-    {
-        id: 14,
-        start: "2021-04-05",
-        end: "2021-04-06",
-        name: "Test debugged mobile notifications"
-    },
-    {
-        id: 15,
-        start: "2021-04-16",
-        end: "2021-04-30",
-        name: "Beta test"
-    },
-    {
-        id: 16,
-        start: "2021-05-01",
-        end: "2021-05-01",
-        name: "Launch day"
-    }
-];
-exports.default = timelineItems;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27381,6 +27244,565 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire9642", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"hh6uc":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4089 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4089.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4089.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "App", ()=>App);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _indexJs = require("./pages/Timeline/index.js");
+var _timelineItemsJs = require("./timelineItems.js");
+var _timelineItemsJsDefault = parcelHelpers.interopDefault(_timelineItemsJs);
+function App() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "app",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _indexJs.Timeline), {}, void 0, false, {
+            fileName: "src/App.js",
+            lineNumber: 7,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/App.js",
+        lineNumber: 6,
+        columnNumber: 7
+    }, this);
+}
+_c = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$4089.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./timelineItems.js":"FMnwD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./pages/Timeline/index.js":"6NIey"}],"FMnwD":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const timelineItems = [
+    {
+        id: 1,
+        start: "2021-01-14",
+        end: "2021-01-22",
+        name: "Recruit translators"
+    },
+    {
+        id: 2,
+        start: "2021-01-17",
+        end: "2021-01-31",
+        name: "Create lesson plan 1"
+    },
+    {
+        id: 3,
+        start: "2021-02-05",
+        end: "2021-02-13",
+        name: "Translate phrases for lesson 1"
+    },
+    {
+        id: 4,
+        start: "2021-02-07",
+        end: "2021-03-08",
+        name: "Create dark mode design"
+    },
+    {
+        id: 5,
+        start: "2021-02-14",
+        end: "2021-02-22",
+        name: "Recruit copyeditors"
+    },
+    {
+        id: 6,
+        start: "2021-02-18",
+        end: "2021-02-24",
+        name: "Proofread translations for lesson 1"
+    },
+    {
+        id: 7,
+        start: "2021-02-20",
+        end: "2021-02-22",
+        name: "Finalize logo"
+    },
+    {
+        id: 8,
+        start: "2021-02-21",
+        end: "2021-03-22",
+        name: "Implement dark mode"
+    },
+    {
+        id: 9,
+        start: "2021-02-21",
+        end: "2021-02-28",
+        name: "Finalize lesson plan 1"
+    },
+    {
+        id: 10,
+        start: "2021-02-23",
+        end: "2021-02-23",
+        name: "Approve logo"
+    },
+    {
+        id: 11,
+        start: "2021-03-03",
+        end: "2021-03-29",
+        name: "Create lesson plan 2"
+    },
+    {
+        id: 12,
+        start: "2021-03-30",
+        end: "2021-04-08",
+        name: "Translate phrases for lesson 2"
+    },
+    {
+        id: 13,
+        start: "2021-04-01",
+        end: "2021-04-04",
+        name: "Debug mobile notification error"
+    },
+    {
+        id: 14,
+        start: "2021-04-05",
+        end: "2021-04-06",
+        name: "Test debugged mobile notifications"
+    },
+    {
+        id: 15,
+        start: "2021-04-16",
+        end: "2021-04-30",
+        name: "Beta test"
+    },
+    {
+        id: 16,
+        start: "2021-05-01",
+        end: "2021-05-01",
+        name: "Launch day"
+    }
+];
+exports.default = timelineItems;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6NIey":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$de59 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$de59.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$de59.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Timeline", ()=>Timeline);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _dateTimeline = require("./DateTimeline");
+var _timeLineContext = require("./TimeLineContext");
+const Timeline = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _timeLineContext.TimelineContextProvider), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dateTimeline.DateTimeline), {}, void 0, false, {
+            fileName: "src/pages/Timeline/index.js",
+            lineNumber: 7,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/pages/Timeline/index.js",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Timeline;
+var _c;
+$RefreshReg$(_c, "Timeline");
+
+  $parcel$ReactRefreshHelpers$de59.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./TimeLineContext":"crLyJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./DateTimeline":"7ZVVd"}],"crLyJ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$7cba = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$7cba.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7cba.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TimelineContextProvider", ()=>TimelineContextProvider);
+parcelHelpers.export(exports, "useTimelineContext", ()=>useTimelineContext);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _useTimeline = require("../../hooks/useTimeline");
+var _s = $RefreshSig$(), _s1 = $RefreshSig$();
+const TimelineContext = /*#__PURE__*/ (0, _react.createContext)();
+const TimelineContextProvider = ({ children })=>{
+    _s();
+    const { dates, getMonthYear } = (0, _useTimeline.useTimeline)();
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TimelineContext.Provider, {
+        value: {
+            dates,
+            getMonthYear
+        },
+        children: children
+    }, void 0, false, {
+        fileName: "src/pages/Timeline/TimeLineContext.js",
+        lineNumber: 8,
+        columnNumber: 12
+    }, undefined);
+};
+_s(TimelineContextProvider, "EKYgRHoTrZm8jmwyPM+qYRCfe8o=", false, function() {
+    return [
+        (0, _useTimeline.useTimeline)
+    ];
+});
+_c = TimelineContextProvider;
+const useTimelineContext = ()=>{
+    _s1();
+    const context = (0, _react.useContext)(TimelineContext);
+    if (!context) throw new Error('This component is not in a TimelineContext Provider');
+    return context;
+};
+_s1(useTimelineContext, "b9L3QQ+jgeyIrH0NfHrJ8nn7VMU=");
+var _c;
+$RefreshReg$(_c, "TimelineContextProvider");
+
+  $parcel$ReactRefreshHelpers$7cba.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../hooks/useTimeline":"olp4f","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"olp4f":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$45cb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$45cb.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$45cb.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "useTimeline", ()=>useTimeline);
+var _react = require("react");
+var _s = $RefreshSig$();
+const useTimeline = ()=>{
+    _s();
+    const today = (0, _react.useMemo)(()=>new Date('2021-03-30'), []);
+    const [dates, setDates] = (0, _react.useState)([]);
+    const getMonthYear = (0, _react.useCallback)(()=>{
+        const monthYear = [];
+        dates.forEach((date)=>{
+            const monthYearString = `${date.month}-${date.year}`;
+            const isAdded = monthYear.findIndex((my)=>my === monthYearString);
+            if (isAdded === -1) monthYear.push(monthYearString);
+        });
+        return monthYear;
+    }, [
+        dates
+    ]);
+    (0, _react.useEffect)((dateRef = today)=>{
+        const startDate = new Date(dateRef);
+        startDate.setMonth(startDate.getMonth() - 3);
+        const endDate = new Date(dateRef);
+        endDate.setMonth(endDate.getMonth() + 3);
+        const currentDate = new Date(startDate);
+        while(currentDate <= endDate){
+            const day = currentDate.getDate();
+            const month = currentDate.toLocaleDateString('en-US', {
+                month: 'long'
+            });
+            const year = currentDate.getFullYear();
+            const dateId = `${year}-${month}-${day}`;
+            const dateObj = {
+                dateId,
+                weekDay: currentDate.toLocaleDateString('en-US', {
+                    weekday: 'long'
+                }),
+                day,
+                month,
+                year
+            };
+            setDates((dates)=>{
+                const isAdded = dates.findIndex((d)=>d.dateId === dateId);
+                if (isAdded === -1) return [
+                    ...dates,
+                    dateObj
+                ];
+                return dates;
+            });
+            currentDate.setDate(currentDate.getDate() + 1);
+        }
+    }, [
+        setDates
+    ]);
+    return {
+        dates,
+        getMonthYear
+    };
+};
+_s(useTimeline, "jpOzBjfhJp3rvLcLeohtC9ge66Q=");
+
+  $parcel$ReactRefreshHelpers$45cb.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","react":"jMk1U","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7ZVVd":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2da6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2da6.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2da6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DateTimeline", ()=>DateTimeline);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _header = require("./Header/Header");
+var _calendar = require("./Calendar/Calendar");
+var _timeLineContext = require("./TimeLineContext");
+var _dayTimeline = require("./DayTimeline/DayTimeline");
+var _s = $RefreshSig$();
+const DateTimeline = ()=>{
+    _s();
+    const { dates, getMonthYear } = (0, _timeLineContext.useTimelineContext)();
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: 'grid',
+            gridTemplateColumns: `repeat(${dates.length}, 60px)`,
+            gridTemplateRows: `repeat(${20}, 60px)`,
+            width: "100%",
+            overflowX: "scroll",
+            whiteSpace: "nowrap"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _header.Header), {}, void 0, false, {
+                fileName: "src/pages/Timeline/DateTimeline.js",
+                lineNumber: 18,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dayTimeline.DayTimeline), {}, void 0, false, {
+                fileName: "src/pages/Timeline/DateTimeline.js",
+                lineNumber: 19,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _calendar.Calendar), {}, void 0, false, {
+                fileName: "src/pages/Timeline/DateTimeline.js",
+                lineNumber: 20,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/Timeline/DateTimeline.js",
+        lineNumber: 10,
+        columnNumber: 9
+    }, undefined);
+};
+_s(DateTimeline, "rl0TI6LirKoPKk348KAmg1U9ZaI=", false, function() {
+    return [
+        (0, _timeLineContext.useTimelineContext)
+    ];
+});
+_c = DateTimeline;
+var _c;
+$RefreshReg$(_c, "DateTimeline");
+
+  $parcel$ReactRefreshHelpers$2da6.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Header/Header":"l7TaQ","./Calendar/Calendar":"hWu1i","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./TimeLineContext":"crLyJ","./DayTimeline/DayTimeline":"awm9l"}],"l7TaQ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2f34 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$2f34.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2f34.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Header", ()=>Header);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _monthBar = require("../../../components/MonthBar/MonthBar");
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            gridColumn: `1 / -1`,
+            gridRow: 1,
+            borderBottom: "1px solid rgb(72, 83, 88)"
+        },
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _monthBar.MonthBar), {}, void 0, false, {
+            fileName: "src/pages/Timeline/Header/Header.js",
+            lineNumber: 11,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/pages/Timeline/Header/Header.js",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$2f34.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../../components/MonthBar/MonthBar":"cnpfP"}],"cnpfP":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$75e9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$75e9.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$75e9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MonthBar", ()=>MonthBar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _monthBarModuleCss = require("./MonthBar.module.css");
+var _monthBarModuleCssDefault = parcelHelpers.interopDefault(_monthBarModuleCss);
+const MonthBar = ({ month = 'January', year = '2021' })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            className: (0, _monthBarModuleCssDefault.default).monthYear,
+            children: `${month} ${year}`
+        }, void 0, false, {
+            fileName: "src/components/MonthBar/MonthBar.js",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/MonthBar/MonthBar.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = MonthBar;
+var _c;
+$RefreshReg$(_c, "MonthBar");
+
+  $parcel$ReactRefreshHelpers$75e9.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","./MonthBar.module.css":"foyQH","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"foyQH":[function(require,module,exports,__globalThis) {
+module.exports["monthYear"] = `_8VTeBW_monthYear`;
+
+},{}],"hWu1i":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6fe9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$6fe9.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6fe9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Calendar", ()=>Calendar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _timeLineContext = require("../TimeLineContext");
+var _s = $RefreshSig$();
+const Calendar = ()=>{
+    _s();
+    const timeline = (0, _timeLineContext.useTimelineContext)();
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "Calendar"
+    }, void 0, false, {
+        fileName: "src/pages/Timeline/Calendar/Calendar.js",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_s(Calendar, "3ZeAmZSxN+EPnAbWjcbznBZoWbA=", false, function() {
+    return [
+        (0, _timeLineContext.useTimelineContext)
+    ];
+});
+_c = Calendar;
+var _c;
+$RefreshReg$(_c, "Calendar");
+
+  $parcel$ReactRefreshHelpers$6fe9.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","../TimeLineContext":"crLyJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"awm9l":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ef54 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$ef54.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ef54.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DayTimeline", ()=>DayTimeline);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _timeLineContext = require("../TimeLineContext");
+var _s = $RefreshSig$();
+const DayTimeline = ()=>{
+    _s();
+    const { dates, getMonthYear } = (0, _timeLineContext.useTimelineContext)();
+    console.log('teeest', dates);
+    return dates.map((date)=>{
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            style: {
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                alignItems: "center",
+                padding: "10px 0",
+                borderBottom: "1px solid rgb(72, 83, 88)"
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    children: date.day
+                }, void 0, false, {
+                    fileName: "src/pages/Timeline/DayTimeline/DayTimeline.js",
+                    lineNumber: 15,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    children: date.weekDay[0]
+                }, void 0, false, {
+                    fileName: "src/pages/Timeline/DayTimeline/DayTimeline.js",
+                    lineNumber: 16,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, date.dateId, true, {
+            fileName: "src/pages/Timeline/DayTimeline/DayTimeline.js",
+            lineNumber: 7,
+            columnNumber: 17
+        }, undefined);
+    });
+};
+_s(DayTimeline, "rl0TI6LirKoPKk348KAmg1U9ZaI=", false, function() {
+    return [
+        (0, _timeLineContext.useTimelineContext)
+    ];
+});
+_c = DayTimeline;
+var _c;
+$RefreshReg$(_c, "DayTimeline");
+
+  $parcel$ReactRefreshHelpers$ef54.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../TimeLineContext":"crLyJ"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire9642", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=timeline.31b563d9.js.map
